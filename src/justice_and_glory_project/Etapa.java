@@ -7,26 +7,22 @@ public class Etapa {
     private String opcaoEtapa2;
     private String opcaoEtapa3;
     
-    public Etapa(String textoEtapa, String opcaoEtapa1, String opcaoEtapa2, String opcaoEtapa3) {
-		this.textoEtapa = textoEtapa;
-		this.opcaoEtapa1 = opcaoEtapa1;
-		this.opcaoEtapa2 = opcaoEtapa2;
-		this.opcaoEtapa3 = opcaoEtapa3;
-	}
+//    public Etapa(String textoEtapa, String opcaoEtapa1, String opcaoEtapa2, String opcaoEtapa3) {
+//		this.textoEtapa = textoEtapa;
+//		this.opcaoEtapa1 = opcaoEtapa1;
+//		this.opcaoEtapa2 = opcaoEtapa2;
+//		this.opcaoEtapa3 = opcaoEtapa3;
+//	}
     
-    public Etapa(String textoEtapa) {
-       this.textoEtapa = textoEtapa;
-    }
+//    public Etapa(String textoEtapa) {
+//       this.textoEtapa = textoEtapa;
+//    }
     
-    public Etapa() {
-    	
-    }
+//    public Etapa() {
+//    	
+//    }
     
-    public void obtemNome() {
-     Informacao info = new Informacao();
-    }
-    
-    
+   
     public String getOpcaoEtapa1() {
 		return opcaoEtapa1;
 	}
